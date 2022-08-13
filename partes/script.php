@@ -23,7 +23,7 @@
 });
 
 </script>
-
+//Envía el id y se muestra el registro por modal.
 <script>
 
   function fun(id){
@@ -37,26 +37,6 @@
     
   }
 </script>
-<!-- AJAX -->
-<!-- <script>
-  $(document).ready(()=>{
-    $(".del").click(()=>{
-      var id = $(this).attr("id");
-
-      var dataString = 'id='+ id;
-      console.log(id);
-      url = "../controlador/delete.php";
-        $.ajax({
-          type: "POST",
-          url: url,
-          data: dataString,
-          success: (data)=>{
-              $("#registro" + id).hide();
-              $('resp').html(data);
-          }
-        });
-    });
-  });
-</script> -->
+<script src="../js/Dclock.js"></script>
   </body>
 </html>

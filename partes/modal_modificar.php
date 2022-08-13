@@ -1,6 +1,6 @@
 <?php
     $id= $_GET['id'];
-    include'../controlador/read.php';
+    include '../controlador/read.php';
 
 ?>
 
